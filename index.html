@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACK PODS | Sabor Elite, Gelo Intenso</title>
+    <meta name="description" content="A melhor loja de pods do Brasil. Ignite, Elfbar, Nikbar e mais.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Rajdhani:wght@500;700&family=Orbitron:wght@500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="smoke-overlay"></div>
+        <div class="ice-particles"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="logo">BLACK PODS</div>
+        <nav>
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="most-puffs">Mais Puffs</button>
+            <button class="filter-btn" data-filter="icy">Mais Gelados</button>
+            <button class="filter-btn" data-filter="promotions">Ofertas</button>
+            <button class="filter-btn" data-filter="new">Novidades</button>
+        </nav>
+        <button class="cart-btn">Carrinho (0)</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="SABOR ELITE">SABOR ELITE</h1>
+                <h2 class="sub-headline">GELO INTENSO. EXPERIMENTE O FUTURO.</h2>
+                <p class="hero-desc">A tecnologia vape mais avançada do mundo, agora no Brasil.</p>
+                <a href="#products" class="cta-button pulse">VER TODOS OS PODS</a>
+            </div>
+            <div class="hero-visual">
+                <img src="./images/ignite-v80.png" alt="Ignite V80 Cyberpunk Edition"
+                    style="max-width: 400px; width: 100%; filter: drop-shadow(0 0 30px rgba(168, 85, 247, 0.4));">
+                <div class="hero-glow"></div>
+            </div>
+        </section>
+
+        <section class="banner-section">
+            <h2 class="banner-text">QUEM CHEGA PRIMEIRO, FUMA MELHOR</h2>
+        </section>
+
+        <section id="products" class="product-grid-section">
+            <h2 class="section-title">OFERTAS EXCLUSIVAS</h2>
+            <div class="product-grid" id="product-container">
+                <!-- Products will be injected here by JS -->
+            </div>
+        </section>
+    </main>
+
+    <div class="floating-actions">
+        <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" aria-label="Fale no WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="30" height="30">
+                <path
+                    d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.592 2.654-.696c1.029.575 2.181.939 3.414.946l.004-.001h.001c3.181 0 5.766-2.586 5.767-5.764.001-3.183-2.585-5.769-5.766-5.769l-.614.639zM12.031 2C6.55 2 2.08 6.47 2.081 11.95c0 1.956.541 3.791 1.481 5.378L2 23l5.804-1.52c1.517.828 3.243 1.258 5.021 1.259h.004c5.482 0 9.949-4.47 9.95-9.95C22.845 6.47 18.379 2 12.899 2H12.03z" />
+            </svg>
+        </a>
+        <button class="quick-checkout">⚡ COMPRA RÁPIDA</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BLACK PODS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
